@@ -1,0 +1,143 @@
+/*TODO solve problem with padding in div img*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #f0f3f6;
+}
+
+wrapper {
+    width: auto;
+}
+
+h1 {
+    color: #8499a7;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+span {
+    color: #21b8c6;
+}
+
+div.img {
+    box-sizing: border-box;
+    position: relative;
+/*    margin: 5px;*/
+    border: 1px solid gray;
+    width: 100%;
+/*    width: 175px;*/
+    height: auto;
+/*     height: 85px;*/
+    float: left;
+/*
+    	object-fit:cover;
+*/
+}
+
+div.img:hover {
+/*    border: 5px solid green;*/
+}
+
+div.img img {
+    width: 100%;
+}
+
+.likes {
+    position: relative;
+    top: -40px;
+    display: none;
+    background: rgba(255,255,255, 0.9);
+    height: 40px;
+    width: auto;
+}
+
+.likes div { 
+/*    display: inline-block;*/
+    text-align: center;
+/*    border: 1px solid gray;*/
+    margin: 5px 10px;
+
+}
+
+.like, .dislike, .date {
+    float: right;
+}
+
+.show, .nickname {
+    float: left;
+/*    border: 2px solid gray;*/
+}
+
+
+.showLikes{
+    display: block;
+}
+
+#nickname {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #8499a7;
+    margin-bottom: 10px;
+}
+/*
+
+small {
+    display: block;
+}
+
+.date {
+    float: right;
+}*/
+
+#under {
+    height: 40px;
+    background: #f3f5f3;
+}
+
+#under button {
+/*    margin-top: -10px;*/
+    float: right;
+}
+
+/*.modal {
+    background-color: rgba(255,255,255, 0.5);
+}
+
+.modal-content {
+    width: 100%;
+}
+*/
+
+.modal-content, textarea {
+    color: #8499a7;
+    margin-bottom: 20px;
+}
+
+.users_comments {
+    height: 200px;
+    overflow-y: auto;
+}
+
+.user_text {
+    border: 1px solid #8499a7;
+    padding: 10px;
+/*    font-size: 16px;*/
+    line-height: 1;
+}
+.clearfix {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+
+
+
+
+
+
