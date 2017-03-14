@@ -9,7 +9,9 @@ body {
     background: #f0f3f6;
 }
 
-wrapper {
+.wrapper {
+    margin: 20px;
+    padding: 20px;
     width: auto;
 }
 
@@ -26,21 +28,27 @@ span {
 
 div.img {
     box-sizing: border-box;
+    float: left;
+    height: auto;
     position: relative;
-/*    margin: 5px;*/
-    border: 1px solid gray;
+    margin-bottom: 10px;
+
+/*    border: 1px solid gray;*/
     width: 100%;
 /*    width: 175px;*/
-    height: auto;
 /*     height: 85px;*/
-    float: left;
 /*
     	object-fit:cover;
 */
+    
 }
 
 div.img:hover {
 /*    border: 5px solid green;*/
+}
+
+.img-responsive {
+    box-shadow: 0px 0px 15px #8499a7;
 }
 
 div.img img {
@@ -48,11 +56,11 @@ div.img img {
 }
 
 .likes {
-    position: relative;
-    top: -40px;
     display: none;
     background: rgba(255,255,255, 0.9);
     height: 40px;
+    position: relative;
+    top: -40px;
     width: auto;
 }
 
@@ -79,10 +87,10 @@ div.img img {
 }
 
 #nickname {
-    width: 100%;
     border: none;
     border-bottom: 2px solid #8499a7;
     margin-bottom: 10px;
+    width: 100%;
 }
 /*
 
@@ -95,13 +103,13 @@ small {
 }*/
 
 #under {
-    height: 40px;
     background: #f3f5f3;
+    height: 40px;
 }
 
 #under button {
-/*    margin-top: -10px;*/
     float: right;
+/*    margin-top: -10px;*/
 }
 
 /*.modal {
@@ -125,18 +133,44 @@ small {
 
 .user_text {
     border: 1px solid #8499a7;
-    padding: 10px;
 /*    font-size: 16px;*/
     line-height: 1;
+    padding: 10px;
 }
 .clearfix {
-    display: table;
     content: "";
     clear: both;
+    display: table;
 }
 
+#uploadFile {
+/*    border: 2px solid red;*/
+    background: white;
+/*    display: block;*/
+    border-radius: 10px;
+    height: 200px;
+    padding: 10px 50px;
+    text-align: center;
+/*    vertical-align: middle;
+    */
+    padding: 60px;
+/*    width: 100%;*/
+}
 
+.uploadButton {
+    display: block;
+    width: 100%;
+    height: ;
+}
 
+input[type="file"] {
+/*    background: red;*/
+/*    display: block;*/
+/*    border: 1px solid;*/
+    display: none;
+    height: 150px;
+    width: 100%;
+}
 
 
 
